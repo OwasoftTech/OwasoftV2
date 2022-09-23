@@ -1,0 +1,13 @@
+.productBanner {
+    background-image: url("/assets/images/backgrounds/product-banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.productCards {
+    background-image: linear-gradient(to right, #fff, #f6f7ff);
+    &:hover{
+        background-image: linear-gradient(to right, #f6f7ff, #fff);
+        box-shadow: 13px 14px 15px 0 #d5dae040; 
+    }
+}

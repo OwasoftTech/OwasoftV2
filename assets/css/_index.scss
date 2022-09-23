@@ -1,0 +1,170 @@
+.libullets {
+    list-style-image: url('../images/list.png');
+}
+
+.libulletswhite {
+    list-style-image: url('../images/listbulletwhite.webp');
+}
+
+.mainBanner {
+    background-image: url("/assets/images/backgrounds/main-banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.mainVedioSection {
+    background-image: url("/assets/images/backgrounds/main-vedio-section.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.brandButton {
+
+    .owl-prev,
+    .owl-next {
+        border-radius: 100%;
+        border: none;
+        background-color: #0b22390d;
+        font-size: 1.5em;
+        width: 3rem;
+        aspect-ratio: 1;
+        margin: 10px;
+
+        &:hover {
+            background-color: $mainColor;
+            color: #fff;
+        }
+    }
+}
+
+.heroSection-1 {
+    background-image: url("/assets/images/backgrounds/bg-2.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.heroSection-2 {
+    background-image: url("/assets/images/backgrounds/bg3.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.heroSection-3 {
+    background-image: url("/assets/images/backgrounds/bg-4.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.heroSection-5 {
+    background-image: url("/assets/images/backgrounds/bg-5.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.workCard {
+    img {
+        width: 40px;
+        aspect-ratio: 1;
+    }
+
+    &:hover {
+        box-shadow: 13px 14px 15px 0 #dcdee2a6;
+    }
+
+    span {
+        border-left: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        display: none;
+        top: 0;
+        right: 0;
+    }
+
+    &:hover span {
+        display: block;
+    }
+}
+
+.products {
+    img {
+        height: 40px;
+        aspect-ratio: 1;
+    }
+
+    &:hover {
+        box-shadow: 0 0 15px 0 #b7b7b766;
+        background-color: #1d2f49;
+    }
+
+    span {
+        border-left: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        display: none;
+        top: 0;
+        right: 0;
+    }
+
+    &:hover span {
+        display: block;
+    }
+}
+
+.technologies {
+    background-color: #f1f3ff;
+
+    img {
+        height: 40px;
+        aspect-ratio: 1;
+    }
+
+    &:hover {
+        box-shadow: 0 0 15px 0 #b7b7b766;
+        background-color: #ffffff;
+    }
+
+    span {
+        border-left: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        display: none;
+        top: 0;
+        right: 0;
+    }
+
+    &:hover span {
+        display: block;
+    }
+}
+
+.technologiesNav {
+    .active {
+        background-color: $mainColor;
+        color: #fff;
+    }
+
+    li {
+        background-color: #fff;
+        border-right: 1px solid #5f7d95;
+        color: #5f7d95;
+        margin-bottom: 10px;
+
+        &:last-of-type {
+            border: none;
+        }
+
+        a {
+            color: #5f7d95;
+        }
+
+        &:hover {
+            background-color: $mainColor;
+
+            a {
+                color: #fff !important;
+            }
+        }
+    }
+}

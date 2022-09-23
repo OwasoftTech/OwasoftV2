@@ -1,0 +1,271 @@
+.libullets {
+  list-style-image: url("../images/list.png");
+}
+
+.libulletswhite {
+  list-style-image: url("../images/listbulletwhite.webp");
+}
+
+.mainBanner {
+  background-image: url("/assets/images/backgrounds/main-banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainBanner p {
+  font-size: 1.5rem;
+}
+
+.mainVedioSection {
+  background-image: url("/assets/images/backgrounds/main-vedio-section.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.brandButton .owl-prev,
+.brandButton .owl-next {
+  border-radius: 100%;
+  border: none;
+  background-color: rgba(11, 34, 57, 0.0509803922);
+  font-size: 1.5em;
+  width: 3rem;
+  aspect-ratio: 1;
+  margin: 10px;
+}
+.brandButton .owl-prev:hover,
+.brandButton .owl-next:hover {
+  background-color: #f72626;
+  color: #fff;
+}
+
+.heroSection-1 {
+  background-image: url("/assets/images/backgrounds/bg-2.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.heroSection-2 {
+  background-image: url("/assets/images/backgrounds/bg3.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.heroSection-3 {
+  background-image: url("/assets/images/backgrounds/bg-4.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.heroSection-5 {
+  background-image: url("/assets/images/backgrounds/bg-5.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.workCard img {
+  width: 40px;
+  aspect-ratio: 1;
+}
+.workCard:hover {
+  box-shadow: 13px 14px 15px 0 rgba(220, 222, 226, 0.6509803922);
+}
+.workCard span {
+  border-left: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  display: none;
+  top: 0;
+  right: 0;
+}
+.workCard:hover span {
+  display: block;
+}
+
+.products img {
+  height: 40px;
+  aspect-ratio: 1;
+}
+.products:hover {
+  box-shadow: 0 0 15px 0 rgba(183, 183, 183, 0.4);
+  background-color: #1d2f49;
+}
+.products span {
+  border-left: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  display: none;
+  top: 0;
+  right: 0;
+}
+.products:hover span {
+  display: block;
+}
+
+.technologies {
+  background-color: #f1f3ff;
+}
+.technologies img {
+  height: 40px;
+  aspect-ratio: 1;
+}
+.technologies:hover {
+  box-shadow: 0 0 15px 0 rgba(183, 183, 183, 0.4);
+  background-color: #ffffff;
+}
+.technologies span {
+  border-left: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  display: none;
+  top: 0;
+  right: 0;
+}
+.technologies:hover span {
+  display: block;
+}
+
+.technologiesNav .active {
+  background-color: #f72626;
+  color: #fff;
+}
+.technologiesNav li {
+  background-color: #fff;
+  border-right: 1px solid #5f7d95;
+  color: #5f7d95;
+  margin-bottom: 10px;
+}
+.technologiesNav li:last-of-type {
+  border: none;
+}
+.technologiesNav li a {
+  color: #5f7d95;
+}
+.technologiesNav li:hover {
+  background-color: #f72626;
+}
+.technologiesNav li:hover a {
+  color: #fff !important;
+}
+
+.productBanner {
+  background-image: url("/assets/images/backgrounds/product-banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.productCards {
+  background-image: linear-gradient(to right, #fff, #f6f7ff);
+}
+.productCards:hover {
+  background-image: linear-gradient(to right, #f6f7ff, #fff);
+  box-shadow: 13px 14px 15px 0 rgba(213, 218, 224, 0.2509803922);
+}
+
+* {
+  transition: all 0.5s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif !important;
+}
+
+p {
+  font-family: "Lato", sans-serif !important;
+  font-weight: normal;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f72626;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ce0707;
+}
+
+.defaultText {
+  color: #5f7d95;
+  font-weight: normal;
+}
+
+.mainColor {
+  color: #f72626;
+}
+
+.mainBg {
+  background-color: #f72626;
+  color: #fff;
+}
+
+.defaultText {
+  color: #5f7d95 !important;
+}
+
+.defaultButton {
+  position: relative;
+  background-color: #f72626;
+  color: #fff;
+}
+.defaultButton span {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: #fff 10px solid;
+  border-bottom: 10px solid transparent;
+  top: 3px;
+  right: 3px;
+}
+.defaultButton:hover {
+  background-color: #ce0707;
+  color: #fff;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.2862745098);
+  z-index: 100;
+}
+nav li {
+  border-bottom: 2px transparent solid;
+}
+nav li:hover {
+  border-bottom: #fff 2px solid;
+}
+nav .active {
+  border-bottom: #fff 2px solid;
+}
+
+.footer {
+  background-image: url("/assets/images/backgrounds/bg-4.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.footer .footerContent {
+  text-align: justify;
+}
+.footer .nav-link {
+  border-bottom: 2px solid transparent;
+}
+.footer .nav-link:hover {
+  border-bottom: 2px solid #f72626;
+}
+.footer .socialIcon a {
+  color: #fff;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.1294117647);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .socialIcon a:hover {
+  background-color: #f72626;
+  color: #fff !important;
+}/*# sourceMappingURL=main.css.map */
